@@ -3,8 +3,7 @@
 
 This document outlines a simultaneous localization and mapping (SLAM) algorithm designed for use with 2D scans collected from a Unity simulation environment. In this setup, a LiDAR scanner is attached to a motor (such as a stepper motor), which facilitates the collection of 360-degree LiDAR data represented as angles (ranging from 0 to 360 degrees) and distances.
 
-Overview of the Algorithm
-
+#Overview of the Algorithm
 The core of the algorithm is to compare and find distances between points in the collected scans, using a nearest neighbors algorithm coupled with the Iterative Closest Point (ICP) algorithm for matching. The overall workflow consists of the following key steps:
 
 Data Acquisition: Scans are obtained from the simulation environment, where the LiDAR continuously captures 360-degree data.
