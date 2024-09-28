@@ -25,3 +25,5 @@ Pose Graph Optimization: To enhance global map consistency, a pose graph optimiz
 Global Map Update: The global map is updated with points from the scans transformed according to the optimized poses, ensuring that new data is accurately integrated into the existing map.
 
 Visualization: The algorithm incorporates real-time visualization using PyQtGraph, displaying the global map and trajectory of the robot as it navigates the environment.
+
+# While this implementation shows great potential, there are definitely areas where we can make improvements. For future work, we could look into incorporating sensor fusion techniques, which would allow us to combine data from various sources—like inertial measurement units (IMUs)—to boost localization accuracy. Additionally, optimizing how we distribute workloads across computational tasks could really enhance performance, especially in real-time scenarios.
