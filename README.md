@@ -164,6 +164,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 👥 Author
+Burak TÜZEL
+
 ## 📚 References
 
 1. ICP Algorithm: Besl, P.J. and McKay, N.D., 1992
